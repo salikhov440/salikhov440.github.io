@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700');
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+legend {
+  color: #000;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.header .nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  top: 0;
+}
+
+.header .nav .logo {
+  padding-top: 10px;
+  width: 200px;
+}
+
+.header .slider {
+  position: relative;
+}
+
+.header .slider .single-item .carousel-1 {
+  background: transparent url("../img/slide-1.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  background-position: 0 -20px;
+}
+
+.header .slider .single-item .carousel-2 {
+  background: transparent url("../img/slide-2.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header .slider .single-item .carousel-3 {
+  background: transparent url("../img/slide-3.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header .slider .slick-dots {
+  bottom: 0;
+}
+
+.header .slider .slick-dots li {
+  padding: 10px;
+}
+
+.header .slider .slick-dots li button {
+  font-size: 20px;
+  background: white;
+  border-radius: 50%;
+}
+
+.header .slider .slick-dots .slick-active button {
+  background-color: #3451C7;
+}
+
+#top {
+  display: none;
+  position: fixed;
+  right: 0.5%;
+  bottom: 8.5%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#top img {
+  padding: 15px;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #f7701b;
+}
+
+#section .agency {
+  padding-top: 150px;
+  background-color: #11749e;
+}
+
+#section .agency .text {
+  position: relative;
+  z-index: 9999;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#section .agency .text h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 37px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#section .agency .text p {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  width: 80%;
+}
+
+#section .agency .text p span {
+  display: block;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f7701b;
+  margin-top: 20px;
+}
+
+#section .agency .blocks {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+#section .agency .blocks .block {
+  color: #fff;
+  width: calc(25% - 30px);
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+#section .agency .blocks .block img {
+  margin-bottom: 20px;
+}
+
+#section .agency .blocks .block h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#section .akita {
+  margin-bottom: 50px;
+}
+
+#section .akita .items .item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#section .akita .items .item .title h5 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+#section .akita .items .item .title h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#section .akita .items .item .title p {
+  font-size: 15px;
+}
+
+#section .akita .items .item .black {
+  background-color: #222;
+  color: #fff;
+  padding: 80px 115px 100px 110px;
+}
+
+#section .akita .items .item .black p {
+  line-height: 20px;
+}
+
+#section .akita .items .item .black p span {
+  font-size: 20px;
+  color: #f7701b;
+}
+
+#section .akita .items .item .grey {
+  background-color: #f3f3f3;
+  padding: 80px 110px 100px 110px;
+}
+
+#section .akita .items .item .grey p {
+  line-height: 20px;
+}
+
+#section .akita .items .item .image1 {
+  background: transparent url("../img/title-black.png") no-repeat center center;
+  background-size: cover;
+}
+
+#section .akita .items .item .image1 .imgnone {
+  display: none;
+}
+
+#section .akita .items .item .image2 {
+  background: transparent url("../img/title-grey.png") no-repeat center center;
+  background-size: cover;
+}
+
+#section .akita .items .item .image2 .imgnone {
+  display: none;
+}
+
+#section .product__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#section .product__title h2 {
+  font-size: 60px;
+  color: #11749e;
+}
+
+#section .product .multiple-slide .slide {
+  margin-right: 5px;
+}
+
+#section .contact-title {
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+#section .contact-title h2 {
+  color: #f7701b;
+  font-size: 60px;
+  text-align: center;
+}
+
+#section .contacts {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#section .contacts ul li {
+  margin-bottom: 10px;
+}
+
+#section .contacts ul li svg {
+  margin-right: 10px;
+}
+
+#section .contacts ul li svg path {
+  fill: #fff;
+}
+
+#section .contacts ul li a {
+  color: #fff;
+}
+
+#section .contacts__phone {
+  padding: 40px;
+  border-radius: 30% 0;
+  background-color: #11749e;
+}
+
+#section .contacts__social {
+  padding: 40px;
+  border-radius: 30% 0;
+  background-color: #f7701b;
+}
+
+.footer {
+  background-color: #222;
+}
+
+.footer .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 50px;
+}
+
+@media screen and (max-width: 780px) {
+  .header .nav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #section .agency .blocks {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #section .contacts {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header nav .logo img {
+    width: 100px;
+  }
+
+  .header .slider .single-item .carousel-1,
+  .header .slider .single-item .carousel-3 {
+    background-position: 50% 50%;
+    height: 50vh;
+  }
+
+  #section .agency .blocks {
+    display: block;
+  }
+
+  #section .agency .blocks .block {
+    width: calc(100% - 30px);
+  }
+
+  #section .akita .items .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  #section .akita .items .item .title {
+    padding: 20px;
+  }
+
+  #section .akita .items .item .title p span {
+    font-size: 16px;
+  }
+
+  #section .akita .items .item .image2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  #section .akita .items .item .image1 .imgnone,
+  #section .akita .items .item .image2 .imgnone {
+    display: block;
+  }
+
+  #section .contacts {
+    display: block;
+  }
+
+  #section .contacts__phone {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header .nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #section .agency .blocks {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #section .agency .blocks .block {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #section .contacts {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
