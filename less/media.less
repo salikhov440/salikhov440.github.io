@@ -1,0 +1,68 @@
+@media screen and (max-width: 800px){
+	body{
+		overflow-x: hidden;
+	}
+	#top{
+right: 7%;
+	}
+	.header{
+		nav{
+			.logo{
+				img{
+					width: 100px;
+				}
+			}
+		}
+		.slider{
+			.single-item{
+				.carousel-1,.carousel-3,.carousel-2{
+					background-position: 50% 50%;
+					height: 50vh;
+				}
+			}
+		}
+	}
+	#section{
+		.agency{
+			.blocks{
+				display: block;
+				.block{
+					.size(12);
+					.tooltip-vrf,.tooltip-chanel,.tooltip-kasetniy,.tooltip-chiller{
+						width: 280px;
+						left: 8%;
+						margin-left: 0;
+						margin-top: -115px;
+						// height: 800px !important;
+					}
+				}
+			}
+		}
+		.akita{
+			.items{
+				.item{
+					display: flex;
+					flex-direction: column;
+					.title{
+						padding: 20px;
+						p{
+							span{
+								font-size: 16px;
+							}
+						}
+					}
+					.image2{
+						order: 2;
+					}
+
+				}
+			}
+		}
+		.contacts{
+			display: block;
+			&__phone{
+				margin-bottom: 30px;
+			}
+		}
+	}
+}

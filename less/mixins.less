@@ -1,0 +1,8 @@
+.bg-size(@size) when not (@size = false) {
+    background-size: @size;
+}
+
+.bg(@url: '', @size: cover, @color: transparent, @repeat: no-repeat, @x: center, @y: center){
+    background: @color url("@{url}") @repeat @x @y;
+    .bg-size(@size);
+}
