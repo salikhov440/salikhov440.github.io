@@ -34,4 +34,30 @@ $(function(f){
 		}
 		]
 	});
+	// Start modal_VRF
+	$('.modal_VRF').on('click', function(){
+	$('.VRF').arcticmodal();
+	});
+	// End modal_VRF
+
+	// Start modal_chanel
+	$('.modal_chanel').on('click', function(){
+$('.chanel').arcticmodal();
+	});
+
+
+	// End modal_chanel
+
+	// Start modal_kaset
+	$('.modal_kaset').on('click', function(){
+		$('.kasetniy').arcticmodal();
+	});
+
+
+	// Start modal_chiller
+	$('.modal_chiller').on('click', function(){
+		$('.chiller').arcticmodal();
+
+	});
+	// End modal_chiller
 });
